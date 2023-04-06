@@ -1,0 +1,24 @@
+{
+  "name": "arranque",
+  "source": "index.html",
+  "version": "1.0.0",
+  "description": "Arranque de sitios",
+  "scripts": {
+    "dev": "parcel --open",
+    "prod": "parcel build --public-url ./"
+  },
+  "author": "Claudio Monzoni",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.7.0",
+    "parcel": "^2-7-0",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "gsap": "^3.6.0",
+    "jquery": "^3.6.0",
+    "mm": "^3.2.0",
+    "modulo": "0.0.3"
+  }
+}

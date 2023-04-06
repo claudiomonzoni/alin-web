@@ -1,0 +1,41 @@
+@use 'mediaQ' as *;
+@use 'color' as *;
+
+// menu de navegación
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+ 
+  width: 100%;
+  z-index: 900;
+  .logo {
+    flex: 0 1 30%;
+    padding: 2rem;
+    @include cel{
+      flex: 1 0 30%;
+     
+    }
+    @include tableta{
+      flex: 0 1 50%;
+    }
+  }
+  // // ultimo ul aplicar esta regla
+  // ul + ul {
+  //   padding: 0 1em;
+  // }
+}
+
+// agregamos padding a todo lo que este debajo de nav
+
+// nav + section{
+//   padding-top: 9%;
+//   @include cel{
+//     padding-top: 33%;
+//   }
+//   @include tableta{
+//     padding-top: 17%;
+//   }
+// }
