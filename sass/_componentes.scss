@@ -3,7 +3,7 @@
 
 // menu de navegación
 nav {
-  background-color: #fff;
+  background-color: $amarillo;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,8 +12,8 @@ nav {
   width: 100%;
   z-index: 900;
   .logo {
-    flex: 0 1 30%;
-    padding: 2rem;
+    flex: 0 1 80%;
+    padding: 1.5rem 0;
     @include cel{
       flex: 1 0 30%;
      
