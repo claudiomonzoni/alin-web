@@ -45,7 +45,7 @@
 76C:\Users\claud\OneDrive\Escritorio\alin\node_modules\ordered-binary\index.js133040983997220000 0
 100C:\Users\claud\OneDrive\Escritorio\alin\node_modules\caniuse-lite\data\features\css-focus-visible.js133040984032490000 0
 101C:\Users\claud\OneDrive\Escritorio\alin\node_modules\css-select\lib\pseudo-selectors\filters.d.ts.map133040984050900000 0
-44C:\Users\claud\OneDrive\Escritorio\alin\dist133252924642371655 1
+44C:\Users\claud\OneDrive\Escritorio\alin\dist133252962809290269 1
 75C:\Users\claud\OneDrive\Escritorio\alin\node_modules\mkdirp\.gitignore.orig132812022364010000 0
 63C:\Users\claud\OneDrive\Escritorio\alin\node_modules\semver\bin133252766751314148 1
 71C:\Users\claud\OneDrive\Escritorio\alin\node_modules\callsites\index.js132807136228300000 0
@@ -55,7 +55,7 @@
 65C:\Users\claud\OneDrive\Escritorio\alin\node_modules\browserslist133252766765376341 1
 71C:\Users\claud\OneDrive\Escritorio\alin\node_modules\express\.npmignore132812022363860000 0
 95C:\Users\claud\OneDrive\Escritorio\alin\node_modules\svgo\plugins\removeAttributesBySelector.js133040984027820000 0
-50C:\Users\claud\OneDrive\Escritorio\alin\index.html133252916804555144 0
+50C:\Users\claud\OneDrive\Escritorio\alin\index.html133252962807850281 0
 109C:\Users\claud\OneDrive\Escritorio\alin\node_modules\connect\lib-cov\public\icons\page_white_actionscript.png132812022364850000 0
 100C:\Users\claud\OneDrive\Escritorio\alin\node_modules\connect\lib\public\icons\page_white_acrobat.png132812022364850000 0
 58C:\Users\claud\OneDrive\Escritorio\alin\node_modules\@lmdb133252766733592185 1
@@ -89,7 +89,7 @@
 94C:\Users\claud\OneDrive\Escritorio\alin\node_modules\svgo\plugins\addAttributesToSVGElement.js133040984027820000 0
 70C:\Users\claud\OneDrive\Escritorio\alin\node_modules\nth-check\lib\esm133252766759769736 1
 79C:\Users\claud\OneDrive\Escritorio\alin\node_modules\binary-extensions\index.js132812022503310000 0
-50C:\Users\claud\OneDrive\Escritorio\alin\style.scss133252924640672463 0
+50C:\Users\claud\OneDrive\Escritorio\alin\style.scss133252944250412017 0
 92C:\Users\claud\OneDrive\Escritorio\alin\node_modules\utility-types\dist\utility-types.js.map133040983985230000 0
 49C:\Users\claud\OneDrive\Escritorio\alin\yarn.lock133252764302278024 0
 77C:\Users\claud\OneDrive\Escritorio\alin\node_modules\jquery\src\css\curCSS.js133018754829590000 0
@@ -1582,7 +1582,7 @@
 51C:\Users\claud\OneDrive\Escritorio\alin\js\glide.js133252764302238013 0
 84C:\Users\claud\OneDrive\Escritorio\alin\node_modules\caniuse-lite\data\regions\PL.js133040984032490000 0
 72C:\Users\claud\OneDrive\Escritorio\alin\node_modules\stable\package.json132807136142930000 0
-63C:\Users\claud\OneDrive\Escritorio\alin\dist\index.8353e49f.css133252924642336272 0
+63C:\Users\claud\OneDrive\Escritorio\alin\dist\index.8353e49f.css133252944251723197 0
 68C:\Users\claud\OneDrive\Escritorio\alin\node_modules\source-map\dist133252766751449922 1
 69C:\Users\claud\OneDrive\Escritorio\alin\node_modules\stable\README.md132807136142930000 0
 100C:\Users\claud\OneDrive\Escritorio\alin\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\midl.h133040983991190000 0
@@ -1812,7 +1812,7 @@
 89C:\Users\claud\OneDrive\Escritorio\alin\node_modules\connect\lib\middleware\bodyParser.js132812022364850000 0
 80C:\Users\claud\OneDrive\Escritorio\alin\node_modules\jquery\src\core\nodeName.js133018754829590000 0
 86C:\Users\claud\OneDrive\Escritorio\alin\node_modules\caniuse-lite\data\features\svg.js133040984032490000 0
-62C:\Users\claud\OneDrive\Escritorio\alin\dist\index.a8f04b30.js133252923879880544 0
+62C:\Users\claud\OneDrive\Escritorio\alin\dist\index.a8f04b30.js133252939973552041 0
 92C:\Users\claud\OneDrive\Escritorio\alin\node_modules\@parcel\css-win32-x64-msvc\package.json133040984047140000 0
 79C:\Users\claud\OneDrive\Escritorio\alin\node_modules\@parcel\graph\src\types.js133040984024620000 0
 86C:\Users\claud\OneDrive\Escritorio\alin\node_modules\@parcel\graph\src\ContentGraph.js133040984024620000 0
@@ -3799,7 +3799,7 @@
 75C:\Users\claud\OneDrive\Escritorio\alin\node_modules\color-convert\index.js132807136050220000 0
 76C:\Users\claud\OneDrive\Escritorio\alin\node_modules\color-convert\README.md132807136050220000 0
 75C:\Users\claud\OneDrive\Escritorio\alin\node_modules\color-convert\route.js132807136050220000 0
-55C:\Users\claud\OneDrive\Escritorio\alin\dist\index.html133252923879344208 0
+55C:\Users\claud\OneDrive\Escritorio\alin\dist\index.html133252962809280255 0
 70C:\Users\claud\OneDrive\Escritorio\alin\node_modules\coffee-script\bin133252766745660910 1
 72C:\Users\claud\OneDrive\Escritorio\alin\node_modules\coffee-script\CNAME132812022371340000 0
 82C:\Users\claud\OneDrive\Escritorio\alin\node_modules\coffee-script\CONTRIBUTING.md132812022371340000 0
@@ -5464,7 +5464,7 @@
 80C:\Users\claud\OneDrive\Escritorio\alin\node_modules\@glidejs\glide\package.json132828514590640000 0
 77C:\Users\claud\OneDrive\Escritorio\alin\node_modules\@glidejs\glide\README.md132828514590640000 0
 71C:\Users\claud\OneDrive\Escritorio\alin\node_modules\@glidejs\glide\src133252766746653228 1
-67C:\Users\claud\OneDrive\Escritorio\alin\dist\index.8353e49f.css.map133252924642361477 0
+67C:\Users\claud\OneDrive\Escritorio\alin\dist\index.8353e49f.css.map133252944251743204 0
 73C:\Users\claud\OneDrive\Escritorio\alin\node_modules\@glidejs\glide\tests133252766735950283 1
 85C:\Users\claud\OneDrive\Escritorio\alin\node_modules\@glidejs\glide\tests\integration133252766758405912 1
 78C:\Users\claud\OneDrive\Escritorio\alin\node_modules\@glidejs\glide\tests\unit133252766758531118 1
@@ -5502,7 +5502,7 @@
 91C:\Users\claud\OneDrive\Escritorio\alin\node_modules\@glidejs\glide\entry\entry-complete.js132828514590640000 0
 76C:\Users\claud\OneDrive\Escritorio\alin\node_modules\@glidejs\glide\dist\css133252766758275487 1
 81C:\Users\claud\OneDrive\Escritorio\alin\node_modules\@glidejs\glide\dist\glide.js132828514590640000 0
-49C:\Users\claud\OneDrive\Escritorio\alin\js\app.js133252764302228015 0
+49C:\Users\claud\OneDrive\Escritorio\alin\js\app.js133252939971876739 0
 85C:\Users\claud\OneDrive\Escritorio\alin\node_modules\@glidejs\glide\dist\glide.min.js132828514590640000 0
 95C:\Users\claud\OneDrive\Escritorio\alin\node_modules\@glidejs\glide\dist\css\glide.core.css.map132828514590640000 0
 95C:\Users\claud\OneDrive\Escritorio\alin\node_modules\@glidejs\glide\dist\css\glide.core.min.css132828514590640000 0
@@ -5580,7 +5580,7 @@
 69C:\Users\claud\OneDrive\Escritorio\alin\dist\bezirk-bg-3.86078df1.svg133252766976951232 0
 67C:\Users\claud\OneDrive\Escritorio\alin\dist\bezirk-bg.63f7235b.svg133252766975888592 0
 73C:\Users\claud\OneDrive\Escritorio\alin\dist\bezirk-facebook.32ecf956.svg133252910393239597 0
-66C:\Users\claud\OneDrive\Escritorio\alin\dist\facebook.b7329ce1.svg133252923879344208 0
-66C:\Users\claud\OneDrive\Escritorio\alin\dist\index.a8f04b30.js.map133252923879950952 0
-76C:\Users\claud\OneDrive\Escritorio\alin\dist\logo-alin-martinez.b4693a7b.svg133252923879524665 0
-65C:\Users\claud\OneDrive\Escritorio\alin\dist\twitter.097db9f8.svg133252923881133171 0
+66C:\Users\claud\OneDrive\Escritorio\alin\dist\facebook.b7329ce1.svg133252935118697571 0
+66C:\Users\claud\OneDrive\Escritorio\alin\dist\index.a8f04b30.js.map133252939973593908 0
+76C:\Users\claud\OneDrive\Escritorio\alin\dist\logo-alin-martinez.b4693a7b.svg133252935118840153 0
+65C:\Users\claud\OneDrive\Escritorio\alin\dist\twitter.097db9f8.svg133252935118790136 0
