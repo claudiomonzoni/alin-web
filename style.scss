@@ -43,6 +43,8 @@ body {
   padding-top: 10vh;
   @include cel {
     padding-top: 2vh;
+    height: auto;
+    padding-bottom: 2vh;
   }
 }
 .minmax {
@@ -79,18 +81,30 @@ body {
     flex: 1 1 auto;
     flex-wrap: wrap;
     width: 30%;
-    border: solid;
+    border: solid 1px $amarillo;
+  
     h1 {
+
       flex: 1 0 100%;
+      // background: $amarillo;
+      // background-clip: text;
+      // -webkit-background-clip: text;
+      // color: transparent;
       font-size: clamp(3rem, 5vw, 10vw);
       line-height: 1em;
+      padding: 2rem;
       @include cel {
         padding-top: 2rem;
       }
-      border: solid;
+
     }
     p{
-      border: solid;
+      border-top: solid 1px $amarillo;
+      padding: 2rem;
+      font-size: clamp(1rem, 1vw, 1.5vw);
+      @include cel{
+        font-size: 1.3rem;
+      }
     }
   }
   #der {
@@ -101,8 +115,25 @@ body {
     flex: 1 1 auto;
     flex-wrap: wrap;
     width: 60%;
-    border: solid;
     padding: 0 2rem;
+    position: relative;
+    &:before{
+      content: "";
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      // background: $gris;
+      // opacity: .2;
+    // filter: blur(3px);
+    border-right: solid 1px $amarillo;
+    border-top: solid 1px $amarillo;
+    border-bottom: solid 1px $amarillo;
+    
+    }
+    // filter: blur(8px);
+    // -webkit-filter: blur(8px);
     #formu {
       h3 {
         padding: 2rem 0;

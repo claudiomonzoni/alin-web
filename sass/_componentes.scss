@@ -8,12 +8,12 @@ nav {
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
- 
   width: 100%;
   z-index: 900;
+  background-blend-mode: luminosity;
   .logo {
     flex: 0 1 80%;
-    padding: 1.5rem 0;
+    padding: 2rem;
     @include cel{
       flex: 1 0 30%;
      
