@@ -36,15 +36,17 @@ body {
 
 #cuerpo{
   width: 100%;
-  height: 100vh;
   position: relative;
   margin: 0;
   z-index: 100;
-  padding-top: 10vh;
+  padding:10vh 0;
   @include cel {
     padding-top: 2vh;
     height: auto;
     padding-bottom: 2vh;
+  }
+  @include tableta {
+    padding-top: 2vh;
   }
 }
 .minmax {
@@ -73,6 +75,15 @@ body {
       height: auto !important;
     }
   }
+  @include tableta {
+    margin-top: 0rem;
+    padding: 0 1rem;
+    #izq,
+    #der {
+      flex: 1 0 100% !important;
+   
+    }
+  }
   #izq {
     display: flex;
     justify-content: center;
@@ -90,7 +101,7 @@ body {
       // background-clip: text;
       // -webkit-background-clip: text;
       // color: transparent;
-      font-size: clamp(3rem, 5vw, 10vw);
+      font-size: clamp(2.5rem, 3vw, 4vw);
       line-height: 1em;
       padding: 2rem;
       @include cel {
@@ -138,36 +149,41 @@ body {
       h3 {
         padding: 2rem 0;
       }
-      display: flex;
-      flex-wrap: wrap;
-    
-      input,
-      select {
-        background: $negro;
-        border: none;
-        color: $gris;
-        font-size: 1.2rem;
-        padding: 0.5rem;
-        margin: 0.3rem;
-        width: 48%;
-        @include cel {
-          width: 100%;
-        }
+   
+      form{
+        display: flex;
+        flex-wrap: wrap;
+        gap: .2rem;
         box-sizing: border-box;
+        
+        input,
+        select {
+          background: $negro;
+          border: none;
+          color: $gris;
+          font-size: 1.2rem;
+          padding: 0.4rem;
+          margin: 0.3rem 0;
+          flex: 1 0 50;
+          @include cel {
+            flex: 1 0 100%;
+            width: 100%!important;
+          }
+        }
       }
       #cursos {
-        width: calc(96% + .5rem) ;
+        flex: 1 0 100%;
       }
       #contactoBtn {
         display: block;
         padding: 0.5rem;
-        margin: 0.3rem;
+        margin: 0.3rem 0;
         text-align: center;
         text-decoration: none;
         background-color: $verde;
         color: #fff;
         border: none;
-        width: 60%;
+        width: 50%;
         font-size: 1.4rem;
         &:hover {
           background-color: $naranja;
@@ -225,4 +241,33 @@ body {
   margin-top: 1rem;
   padding-top: 1rem;
   font-size: 1.4rem;
+}
+#der{
+
+  #clients{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    li{
+      flex: 1 1 16%;
+      max-width: 12rem;
+      mix-blend-mode: overlay;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        padding: 1rem;
+      }
+    }
+    @include tableta{
+      margin-top: 3em;
+      
+    }
+    @include cel{
+      margin-top: 3em;
+      li{
+        flex: 1 1 35%;
+      }
+    }
+  }
 }

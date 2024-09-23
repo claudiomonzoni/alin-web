@@ -15,10 +15,12 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
+    "@firecms/neat": "^0.2.2",
     "@glidejs/glide": "^3.4.1",
     "gsap": "^3.6.0",
     "jquery": "^3.6.0",
     "mm": "^3.2.0",
-    "modulo": "0.0.3"
+    "modulo": "0.0.3",
+    "three.js": "^0.77.1"
   }
 }
