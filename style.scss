@@ -171,10 +171,11 @@ body {
           }
         }
       }
-      #cursos {
+      #subject {
         flex: 1 0 100%;
       }
       #contactoBtn {
+        z-index: 300;
         display: block;
         padding: 0.5rem;
         margin: 0.3rem 0;
@@ -270,4 +271,10 @@ body {
       }
     }
   }
+}
+
+.desactivado {
+  pointer-events: none;
+  filter: blur(2px);
+  opacity: 0.5;
 }

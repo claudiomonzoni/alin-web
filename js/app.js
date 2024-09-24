@@ -80,24 +80,26 @@ function bg() {
 }
 bg()
 
-const handleSubmit = (event) => {
-  event.preventDefault();
+// const handleSubmit = (event) => {
+//   event.preventDefault();
 
-  const myForm = event.target;
-  const formData = new FormData(myForm);
+//   const myForm = event.target;
+//   const formData = new FormData(myForm);
   
-  fetch("/", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams(formData).toString(),
-  })
-    .then(() => console.log("Form successfully submitted"))
-    .catch((error) => alert(error));
-};
+//   fetch("/", {
+//     method: "POST",
+//     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+//     body: new URLSearchParams(formData).toString(),
+//   })
+//     .then(() => console.log("Form successfully submitted"))
+//     .catch((error) => alert(error));
+// };
 
-document
-  .querySelector("form")
-  .addEventListener("submit", handleSubmit);
+// document
+//   .querySelector("form")
+//   .addEventListener("submit", handleSubmit);
+
+  // __________________________________
 
 // cargar modulos solo por secciones
 // switch (document.location.pathname)
